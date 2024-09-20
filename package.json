@@ -1,0 +1,32 @@
+{
+  "name": "e-commerce-app",
+  "version": "1.0.0",
+  "description": "ecommerce rest api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DibyaJyotiroutray/e-commerce-app.git"
+  },
+  "keywords": [],
+  "author": "Dibya Jyoti Routray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DibyaJyotiroutray/e-commerce-app/issues"
+  },
+  "homepage": "https://github.com/DibyaJyotiroutray/e-commerce-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
